@@ -1,0 +1,208 @@
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+pm.test("Body matches string active_conferences", function () {
+    pm.expect(pm.response.text()).to.include("active_conferences");
+});
+
+{
+    "active_conferences": [
+        {
+            "id": 6686381,
+            "parent_id": null,
+            "room_type": "meeting",
+            "room_pin": 329463767,
+            "name": "Room3",
+            "name_url": "room3",
+            "access_type": 1,
+            "lobby_enabled": true,
+            "lobby_description": "",
+            "registration_enabled": 0,
+            "status": "active",
+            "timezone": "UTC",
+            "timezone_offset": 0,
+            "paid_enabled": 0,
+            "automated_enabled": 0,
+            "created_at": "2022-06-29T15:54:12+00:00",
+            "updated_at": "2022-06-29T15:54:12+00:00",
+            "type": 1,
+            "permanent_room": true,
+            "access_role_hashes": {
+                "listener": "8ab17d76b0e692ade6352b0062bc779b",
+                "presenter": "0280f4e0d287c9f3c677d20062bc779b",
+                "host": "7c666e32ea9dbef29a836d0062bc779b"
+            },
+            "room_url": "https://roman723.clickmeeting.com/room3",
+            "phone_presenter_pin": 813577112,
+            "phone_listener_pin": 367969573,
+            "embed_room_url": "https://embed.clickmeeting.com/embed_conference.html?r=1718277776686381",
+            "widgets_hash": "4cjX57",
+            "recorder_list": [],
+            "settings": {
+                "show_on_personal_page": false,
+                "thank_you_emails_enabled": true,
+                "connection_tester_enabled": false,
+                "phonegateway_enabled": false
+            },
+            "autologin_hashes": {
+                "host": "AwL4AwZ4ZHO8YKkNMz55qzqvnF5yLachLHO0rz52rF5jLacNsP18DRIvrz5uDUjgsRONsP18DQqjAwL2pwZlpz45pJ9lpmV5owtmAaRjZQLlo3N3AmyiDUjgsRN__"
+            },
+            "autologin_hash": "AwL4AwZ4ZHO8YKkNMz55qzqvnF5yLachLHO0rz52rF5jLacNsP18DRIvrz5uDUjgsRONsP18DQqjAwL2pwZlpz45pJ9lpmV5owtmAaRjZQLlo3N3AmyiDUjgsRN__"
+        },
+        {
+            "id": 6686379,
+            "parent_id": null,
+            "room_type": "meeting",
+            "room_pin": 452379584,
+            "name": "Room2",
+            "name_url": "room2",
+            "access_type": 1,
+            "lobby_enabled": true,
+            "lobby_description": "",
+            "registration_enabled": 0,
+            "status": "active",
+            "timezone": "UTC",
+            "timezone_offset": 0,
+            "paid_enabled": 0,
+            "automated_enabled": 0,
+            "created_at": "2022-06-29T15:53:06+00:00",
+            "updated_at": "2022-06-29T15:53:06+00:00",
+            "type": 1,
+            "permanent_room": true,
+            "access_role_hashes": {
+                "listener": "d0421abf1a4866935979b50062bc779b",
+                "presenter": "ad4db2449a99f057cc11bb0062bc779b",
+                "host": "8f24154d1d47efee1b26fe0062bc779b"
+            },
+            "room_url": "https://roman723.clickmeeting.com/room2",
+            "phone_presenter_pin": 719963225,
+            "phone_listener_pin": 532722966,
+            "embed_room_url": "https://embed.clickmeeting.com/embed_conference.html?r=1718277776686379",
+            "widgets_hash": "4cjW14",
+            "recorder_list": [],
+            "settings": {
+                "show_on_personal_page": false,
+                "thank_you_emails_enabled": true,
+                "connection_tester_enabled": false,
+                "phonegateway_enabled": false
+            },
+            "autologin_hashes": {
+                "host": "AwL4AwZ3BHO8YKkNMz55qzqvnF5yLachLHO0rz52rF5jLacNsP18DRIvrz5uDUjgsRONsP18DQumZwDkAGEkZKR0A3WmpaVkomV2p3VjZQLlo3N3AmyiDUjgsRN__"
+            },
+            "autologin_hash": "AwL4AwZ3BHO8YKkNMz55qzqvnF5yLachLHO0rz52rF5jLacNsP18DRIvrz5uDUjgsRONsP18DQumZwDkAGEkZKR0A3WmpaVkomV2p3VjZQLlo3N3AmyiDUjgsRN__"
+        }
+    ]
+}
+
+
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+pm.test("room_type is meeting", function () {
+    pm.expect(pm.response.text()).to.include("meeting");
+});
+pm.test("Name is Room3",() => {
+  pm.expect(pm.response.text()).to.include("Room3");
+});
+
+
+{
+    "active_conferences": [
+        {
+            "id": 6686381,
+            "parent_id": null,
+            "room_type": "meeting",
+            "room_pin": 329463767,
+            "name": "Room3",
+            "name_url": "room3",
+            "access_type": 1,
+            "lobby_enabled": true,
+            "lobby_description": "",
+            "registration_enabled": 0,
+            "status": "active",
+            "timezone": "UTC",
+            "timezone_offset": 0,
+            "paid_enabled": 0,
+            "automated_enabled": 0,
+            "created_at": "2022-06-29T15:54:12+00:00",
+            "updated_at": "2022-06-29T15:54:12+00:00",
+            "type": 1,
+            "permanent_room": true,
+            "access_role_hashes": {
+                "listener": "4710b56fde924eec195e5e0062bc8202",
+                "presenter": "539c22f66a3c0adc5535600062bc8202",
+                "host": "5fd577dce736e4f00109930062bc8202"
+            },
+            "room_url": "https://roman723.clickmeeting.com/room3",
+            "phone_presenter_pin": 813577112,
+            "phone_listener_pin": 367969573,
+            "embed_room_url": "https://embed.clickmeeting.com/embed_conference.html?r=1718277776686381",
+            "widgets_hash": "4cjX57",
+            "recorder_list": [],
+            "settings": {
+                "show_on_personal_page": false,
+                "thank_you_emails_enabled": true,
+                "connection_tester_enabled": false,
+                "phonegateway_enabled": false
+            },
+            "autologin_hashes": {
+                "host": "AwL4AwZ4ZHO8YKkNMz55qzqvnF5yLachLHO0rz52rF5jLacNsP18DRIvrz5uDUjgsRONsP18DQImpGH3A3SjpwpmAaV0pmNjZGN5BGZjZQLlo3N4ZwNlDUjgsRN__"
+            },
+            "autologin_hash": "AwL4AwZ4ZHO8YKkNMz55qzqvnF5yLachLHO0rz52rF5jLacNsP18DRIvrz5uDUjgsRONsP18DQImpGH3A3SjpwpmAaV0pmNjZGN5BGZjZQLlo3N4ZwNlDUjgsRN__"
+        },
+        {
+            "id": 6686379,
+            "parent_id": null,
+            "room_type": "meeting",
+            "room_pin": 452379584,
+            "name": "Room2",
+            "name_url": "room2",
+            "access_type": 1,
+            "lobby_enabled": true,
+            "lobby_description": "",
+            "registration_enabled": 0,
+            "status": "active",
+            "timezone": "UTC",
+            "timezone_offset": 0,
+            "paid_enabled": 0,
+            "automated_enabled": 0,
+            "created_at": "2022-06-29T15:53:06+00:00",
+            "updated_at": "2022-06-29T15:53:06+00:00",
+            "type": 1,
+            "permanent_room": true,
+            "access_role_hashes": {
+                "listener": "d828eebdf4c327267a3e600062bc8202",
+                "presenter": "9327f33507d674630e74290062bc8202",
+                "host": "ec4cb439f3a9d459cef7280062bc8202"
+            },
+            "room_url": "https://roman723.clickmeeting.com/room2",
+            "phone_presenter_pin": 719963225,
+            "phone_listener_pin": 532722966,
+            "embed_room_url": "https://embed.clickmeeting.com/embed_conference.html?r=1718277776686379",
+            "widgets_hash": "4cjW14",
+            "recorder_list": [],
+            "settings": {
+                "show_on_personal_page": false,
+                "thank_you_emails_enabled": true,
+                "connection_tester_enabled": false,
+                "phonegateway_enabled": false
+            },
+            "autologin_hashes": {
+                "host": "AwL4AwZ3BHO8YKkNMz55qzqvnF5yLachLHO0rz52rF5jLacNsP18DRIvrz5uDUjgsRONsP18DUWjAUOiAQZ5pmAhBKR0AGyjpaZ3ZwtjZQLlo3N4ZwNlDUjgsRN__"
+            },
+            "autologin_hash": "AwL4AwZ3BHO8YKkNMz55qzqvnF5yLachLHO0rz52rF5jLacNsP18DRIvrz5uDUjgsRONsP18DUWjAUOiAQZ5pmAhBKR0AGyjpaZ3ZwtjZQLlo3N4ZwNlDUjgsRN__"
+        }
+    ]
+    
+    
+curl --location --request GET 'https://api.clickmeeting.com/v1/conferences/?room_id=6686379' \
+--header 'X-Api-Key: eu921bf8348046cdda5b2425bd673371deed3c58a0' \
+--header 'Cookie: __Secure-app_session=5ipa7jca26cf44it96rolgg9e7; lang=pl' \
+--data-raw ''
+
+
+GET /v1/conferences/?room_id=6686379 HTTP/1.1
+Host: api.clickmeeting.com
+X-Api-Key: eu921bf8348046cdda5b2425bd673371deed3c58a0
+Cookie: __Secure-app_session=5ipa7jca26cf44it96rolgg9e7; lang=pl
+}
