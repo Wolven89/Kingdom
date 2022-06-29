@@ -1,0 +1,60 @@
+
+1. Checking of google-searching info with word "prowly"
+	Main page of Google has launched
+		1. Select the search area
+		2. Enter the word "prowly"
+		3. Press "Enter" button for searching
+			Main page, site links and other resources of Prowly appear in the list of search results
+				The search results page is displayed
+
+2. Checking of google-searching images with phrase "prowly team"
+	Main page of Google has launched
+		1. Select the search area
+		2. Enter the phrase "prowly team"
+		3. Press "Enter" button for searching
+		4. Click on button "Images" under the searching field
+			Images of Prowly team appear in the board of search results
+				The search results page is displayed
+
+3. Checking of google-searching videos with phrase "prowly software"
+	Main page of Google has launched
+		1. Select the search area
+		2. Enter the phrase "prowly software"
+		3. Press "Enter" button for searching
+		4. Click on button "Videos" under the searching field
+			Videos of Prowly application appear in the board of search results
+				The search results page is displayed
+
+4. Checking of google-searching info with word "prowly" in past year
+	Main page of Google has launched
+		1. Select the search area
+		2. Enter the word "prowly"
+		3. Press "Enter" button for searching
+		4. Click on button "Tools" under the searching field
+		5. Click on drop-down list and change value from "Any time" to "Past year"
+			Link named "6 Reasons Why You Should Choose Prowly PR Software" appears first in the list of search results
+				The search results page is displayed
+
+5. Checking of google-searching info with word "prowly" in 2013
+	Main page of Google has launched
+		1. Select the search area
+		2. Enter the word "prowly"
+		3. Press "Enter" button for searching
+		4. Click on button "Tools" under the searching field
+		5. Click on drop-down list and change value from "Any time" to "Custom range"
+		6. In the date window in field "To" enter 2013, than press button "Go"
+			Link named "Prowly - baza kontaktów i łatwe wysyłki dla specjalistów PR" appears first in the list of search results
+				The search results page is displayed
+
+6. Checking of google-searching info with word "prowly" in 2014 before the official site of company starts working
+	Main page of Google has launched
+		1. Select the search area
+		2. Enter the word "prowly"
+		3. Press "Enter" button for searching
+		4. Click on button "Tools" under the searching field
+		5. Click on drop-down list and change value from "Any time" to "Custom range"
+		6. In the date window in field "To" enter 8/31/2014, than press button "Go"
+			Links on Facebook and Linkedin profiles of Prowly appear first in the list of search results
+				The search results page is displayed
+
+P.S. I have found a minor bug while searching the phrase "prowly test test": The first result is a link on a test page named "test test test - Prowly Magazine"
